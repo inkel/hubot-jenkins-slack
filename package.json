@@ -1,0 +1,35 @@
+{
+  "name": "hubot-jenkins-slack",
+  "description": "Jenkins notifier adapted for Slack",
+  "version": "0.0.1",
+  "author": "Leandro López <inkel.ar@gmail.com> (inkel)",
+  "license": "MIT",
+  "keywords": [
+    "hubot",
+    "slack",
+    "jenkins"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/inkel/hubot-jenkins-slack.git"
+  },
+  "bug": {
+    "url": "https://github.com/inkel/hubot-jenkins-slack/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+  "main": "index.coffee",
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/inkel/hubot-jenkins-slack/issues"
+  },
+  "homepage": "https://github.com/inkel/hubot-jenkins-slack",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
