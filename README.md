@@ -17,7 +17,16 @@ Then add `hubot-jenkins-slack` to your `external-scripts.json`:
 ```
 
 ## Screenshots
-TODO
+Below you could see a sample session of `hubot-jenkins-slack` with:
+
+1. a build that finalized with success;
+2. a build that starts from our `master` branch;
+3. a build that failed;
+4. a build that starts from a pull request.
+
+![attachments][attachments]
+
+The obscured information in the first line of each notification follows the following pattern: `Jenkins #{job name} #{action} #{job build URL}`.
 
 ## Configuration
 
@@ -55,3 +64,4 @@ This software is licensed under MIT License. See [License][license] for more det
 [license]: https://github.com/inkel/hubot-jenkins-slack/blob/master/LICENSE
 [notification-plugin]: https://wiki.jenkins-ci.org/display/JENKINS/Notification+Plugin
 [notification-endpoint]: screenshots/notification-endpoint.png
+[attachments]: screenshots/attachments.png
