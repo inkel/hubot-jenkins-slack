@@ -16,6 +16,8 @@ Then add `hubot-jenkins-slack` to your `external-scripts.json`:
 ]
 ```
 
+You also need [slack-attachment](https://github.com/inkel/hubot-slack-attachment) module installed for version 3 of hubot-slack adapter.
+
 ## Screenshots
 Below you could see a sample session of `hubot-jenkins-slack` with:
 
