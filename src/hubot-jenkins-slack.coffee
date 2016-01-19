@@ -104,7 +104,7 @@ module.exports = (robot) ->
             title: "URL"
             value: params.ghprbPullLink
             short: true
-        else
+        else if data.build.scm.commit
           payload.content.fields.push
             title: "Commit SHA1"
             value: data.build.scm.commit
